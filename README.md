@@ -27,3 +27,19 @@ Here is a checklist of tasks to help you put your project together:
 - Create a basic express application with a few database access functions and a few endpoints.
 - Test your endpoints manually using Postman, HTTPie or similar.
 - Test your endpoints with supertest.
+
+
+```
+npx gitignore node 
+npm i express knex@0.95.15 sqlite3
+npm i -D jest @types/jest
+npm i  express nodemon
+npm i  supertest cross-env
+
+npx eslint --init
+npx jest --init
+
+npx knex init
+
+
+```
